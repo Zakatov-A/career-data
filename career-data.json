@@ -1,0 +1,286 @@
+{
+  "positions": {
+    "pos_001": {
+      "name": "Ведущий специалист экспертизы первой линии ИТ поддержки",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_002": {
+      "name": "Unnamed: 14",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_003": {
+      "name": "Unnamed: 4",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_004": {
+      "name": "Ведущий специалист первой линии ИТ поддержки",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_005": {
+      "name": "Ведущий  специалист группы поддержки пользователей",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_006": {
+      "name": "Руководитель первой линии ИТ поддержки",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_007": {
+      "name": "Г",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_008": {
+      "name": "Unnamed: 5",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_009": {
+      "name": "Руководитель централизованной технической поддержки",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_010": {
+      "name": "Unnamed: 7",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_011": {
+      "name": "Специалист группы поддержки пользователей",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_012": {
+      "name": "Директор по управлению IT сервисами",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_013": {
+      "name": "Старший специалист первой линии ИТ поддержки",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_014": {
+      "name": "Старший специалист группы поддержки пользователей",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_015": {
+      "name": "Unnamed: 13",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_016": {
+      "name": "Unnamed: 15",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_017": {
+      "name": "Старший специалист экспертизы первой линии ИТ поддержки",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_018": {
+      "name": "Unnamed: 9",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_019": {
+      "name": "Unnamed: 12",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_020": {
+      "name": "Руководитель группы экспертизы первой линии ИТ поддержки",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_021": {
+      "name": "Unnamed: 3",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_022": {
+      "name": "Unnamed: 11",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_023": {
+      "name": "Начальник отдела предоставления ИТ услуг",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_024": {
+      "name": "Unnamed: 8",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_025": {
+      "name": "Unnamed: 1",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_026": {
+      "name": "Unnamed: 10",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_027": {
+      "name": "Специалист экспертизы первой линии ИТ поддержки",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_028": {
+      "name": "Руководитель группы поддержки пользователей",
+      "department": "auto_detected",
+      "level": 1
+    },
+    "pos_029": {
+      "name": "Unnamed: 6",
+      "department": "auto_detected",
+      "level": 1
+    }
+  },
+  "transitions": {
+    "pos_013": [
+      {
+        "target": "pos_021",
+        "type": "vertical",
+        "direct": true,
+        "marker": "В"
+      },
+      {
+        "target": "pos_008",
+        "type": "horizontal",
+        "direct": true,
+        "marker": "г"
+      }
+    ],
+    "pos_004": [
+      {
+        "target": "pos_003",
+        "type": "vertical",
+        "direct": true,
+        "marker": "В"
+      }
+    ],
+    "pos_006": [
+      {
+        "target": "pos_019",
+        "type": "horizontal",
+        "direct": true,
+        "marker": "Г"
+      },
+      {
+        "target": "pos_015",
+        "type": "vertical",
+        "direct": true,
+        "marker": "В"
+      }
+    ],
+    "pos_027": [
+      {
+        "target": "pos_029",
+        "type": "horizontal",
+        "direct": true,
+        "marker": "Г"
+      }
+    ],
+    "pos_017": [
+      {
+        "target": "pos_010",
+        "type": "vertical",
+        "direct": true,
+        "marker": "В"
+      },
+      {
+        "target": "pos_018",
+        "type": "horizontal",
+        "direct": true,
+        "marker": "Г"
+      }
+    ],
+    "pos_001": [
+      {
+        "target": "pos_024",
+        "type": "vertical",
+        "direct": true,
+        "marker": "В"
+      },
+      {
+        "target": "pos_018",
+        "type": "horizontal",
+        "direct": true,
+        "marker": "Г"
+      }
+    ],
+    "pos_020": [
+      {
+        "target": "pos_003",
+        "type": "vertical",
+        "direct": true,
+        "marker": "В"
+      },
+      {
+        "target": "pos_019",
+        "type": "horizontal",
+        "direct": true,
+        "marker": "Г"
+      }
+    ],
+    "pos_011": [
+      {
+        "target": "pos_026",
+        "type": "horizontal",
+        "direct": true,
+        "marker": "Г"
+      }
+    ],
+    "pos_014": [
+      {
+        "target": "pos_022",
+        "type": "vertical",
+        "direct": true,
+        "marker": "В"
+      }
+    ],
+    "pos_005": [
+      {
+        "target": "pos_019",
+        "type": "vertical",
+        "direct": true,
+        "marker": "В"
+      }
+    ],
+    "pos_028": [
+      {
+        "target": "pos_015",
+        "type": "vertical",
+        "direct": true,
+        "marker": "В"
+      }
+    ],
+    "pos_023": [
+      {
+        "target": "pos_002",
+        "type": "vertical",
+        "direct": true,
+        "marker": "В"
+      }
+    ],
+    "pos_009": [
+      {
+        "target": "pos_016",
+        "type": "vertical",
+        "direct": true,
+        "marker": "В"
+      }
+    ],
+    "pos_012": []
+  }
+}
